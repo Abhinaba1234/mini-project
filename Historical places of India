@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+         body{
+           
+           background-attachment: scroll;
+          background-size: cover;
+          background-image:url("https://free4kwallpapers.com/uploads/originals/2015/09/07/indian-flag-wallpaper-hd.jpg");
+         }
+        #Home{grid-area: Home;}
+        #Link{grid-area: link;}
+        #Address{grid-area: address;}
+        #About{grid-area: about;}
+        #Task{grid-area: task;}
+        #Form{grid-area: form ;}
+        #Abhi{grid-area: abhi;}
+        #Seminar{grid-area: seminar;}
+        #Pyramid{grid-area: pyramid;}
+        #maindiv{
+            display:grid;
+            grid-template-areas:  "Home Home link link address address "
+            "about about task task form form"
+            "abhi abhi seminar seminar pyramid pyramid";
+            padding:10px;
+            margin:10px;
+        }
+        #maindiv >div{
+            background-image: linear-gradient(120deg,orange,white,green);
+            color:blue;
+            text-align: center;
+            font-family: fantasy;
+            font-size: 20px;
+            padding:10px;
+            border-radius: 10px;
+            margin:10px;
+        }
+        #Header{ 
+            width:100%;
+            top:0px;
+            left:0px;
+            background-image: linear-gradient(90deg,#00798c,#432818,#3b3355);
+            color:white;
+            text-align: center;
+            position:fixed;
+            font-family: cursive;
+            font-size: 18px;
+        }
+        #Footer{
+            width:100%;
+            bottom:0px;
+            left:0px;
+            background-color: indigo;
+            color:yellowgreen;
+            text-align: center;
+            position:fixed;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div id="Header">
+        <h2>HISTORICAL PLACES OF INDIA</h2>
+    </div><br><br><br>
+    <div id="Footer">
+        <h2>DESIGNED & CREATED BY (ABHINABA SARKAR)</h2>
+    </div>
+    <div id="maindiv"><br><br>
+        <div id="Home">Taj Mahal<br><br>
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal"target="blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/250px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg"width="200px" height="200px">
+            </a>
+        </div>
+        <div id="Link">Amber Palace<br><br>
+            <a href="https://en.wikipedia.org/wiki/Amber_Fort"target="blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg/250px-20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg"width="200px" height="200px">
+            </a>  
+</div>
+<div id="Address">Red Fort<br><br>
+    <a href="https://en.wikipedia.org/wiki/Red_Fort"target="blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/220px-Delhi_fort.jpg"width="200px" height="200px">
+    </a>
+</div>
+<div id="About">Agra Fort<br><br>
+    <a href="https://en.wikipedia.org/wiki/Agra_Fort"target="blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agra_03-2016_10_Agra_Fort.jpg/300px-Agra_03-2016_10_Agra_Fort.jpg"width="200px" height="200px">
+    </a>
+</div>
+<div id="Task">Qutub Minar<br><br>
+    <a href="https://en.wikipedia.org/wiki/Qutb_Minar"target="blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Qutb_Minar_tower.jpg"width="200px" height="200px">
+    </a>
+</div>
+<div id="Form">Hazarduari Palace<br><br>
+    <a href="https://en.wikipedia.org/wiki/Hazarduari_Palace"target="blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Hazarduari01_debaditya_chatterjee.jpg/250px-Hazarduari01_debaditya_chatterjee.jpg"width="200px" height="200px">
+    </a>
+</div>
+<div id="Abhi">Fatehpuri Sikri<br><br>
+    <a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"target="blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg/275px-Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg"width="200px" height="200px">
+    </a>
+</div>
+<div id="Seminar">Belur Math<br><br>
+    <a href="https://en.wikipedia.org/wiki/Belur_Math"target="blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Belur_Math%2C_Howrah.jpg/220px-Belur_Math%2C_Howrah.jpg"width="200px" height="200px">
+    </a>
+</div>
+<div id="Pyramid">Victoria Memorial<br><br>
+    <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"target="blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/300px-Victoria_Memorial_situated_in_Kolkata.jpg"width="200px" height="200px">
+    </a>
+</div>
+</body>
+</html>
