@@ -44,7 +44,7 @@
             background-image: linear-gradient(90deg,#00798c,#432818,#3b3355);
             color:white;
             text-align: center;
-            position:fixed;
+            position:absolute;
             font-family: cursive;
             font-size: 18px;
         }
